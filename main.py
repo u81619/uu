@@ -94,4 +94,5 @@ async def avatar(interaction: discord.Interaction, file: discord.Attachment):
     embed.set_image(url=file.url)
     await interaction.response.send_message(embed=embed, view=view)
 
-bot.run("bot your token bot")
+
+bot.run("put your token bot")
